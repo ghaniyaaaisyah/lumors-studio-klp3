@@ -6,7 +6,7 @@
 Penyewaan Studio Siniar (Podcast) dan Siaran Langsung Dagang
 
 ## Tautan Website (GitHub Pages)
-https://GANTI-USERNAME.github.io/GANTI-NAMA-REPO/
+[https://GANTI-USERNAME.github.io/GANTI-NAMA-REPO/](https://ghaniyaaaisyah.github.io/lumors-studio-klp3/)
 
 ## Anggota Kelompok
 
