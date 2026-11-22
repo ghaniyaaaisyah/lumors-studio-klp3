@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUMORA Studio | Sewa Studio Siniar dan Siaran Langsung</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== HEADER (CEO) ===== -->
+<header id="header-section" data-role="CEO">
+  <a href="#hero-section" class="brand">LUMORA Studio</a>
+  <nav>
+    <a href="#hero-section">Beranda</a>
+    <a href="#catalog-section">Katalog</a>
+    <a href="#calc-section">Kalkulator</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- ===== HERO (PM 1) ===== -->
+<section id="hero-section" data-role="PM">
+  <div class="hero-content">
+    <h1 class="hero-title">Ruang yang hangat untuk suara dan siaran terbaikmu</h1>
+    <p class="hero-subtitle">Sewa studio siniar dan siaran langsung dagang yang nyaman, lengkap, dan siap pakai. Tinggal datang dan mulai merekam.</p>
+    <ul class="hero-benefits">
+      <li>Peralatan audio dan visual profesional</li>
+      <li>Ruang nyaman dengan peredam suara</li>
+      <li>Harga jelas, hitung biaya langsung di kalkulator</li>
+    </ul>
+    <a href="#calc-section" class="btn">Hitung Biaya Sewa</a>
+  </div>
+  <div class="hero-image">
+    <img src="https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=1200&q=80" alt="Studio siniar LUMORA dengan mikrofon dan headphone">
+  </div>
+</section>
+
+<!-- ===== KATALOG (PM 2) ===== -->
+<section id="catalog-section" data-role="PM">
+  <h2 class="section-title">Pilih Paket Studio</h2>
+  <p class="section-desc">Tiga paket untuk kebutuhan rekaman dan siaran yang berbeda. Harga dihitung per jam.</p>
+
+  <div class="package-grid">
+
+    <article class="package-card">
+      <img class="package-img" src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=800&q=80" alt="Studio Suara Dasar">
+      <div class="package-body">
+        <h3 class="package-name">Studio Suara Dasar</h3>
+        <p class="package-desc">Ideal untuk siniar audio dengan kualitas suara jernih.</p>
+        <ul class="package-features">
+          <li>1 mikrofon profesional</li>
+          <li>Peredam suara ruangan</li>
+          <li>Area duduk nyaman</li>
+        </ul>
+        <p class="package-price">Rp75.000 <span>/ jam</span></p>
+        <p class="promo-info">Kode promo <strong>ABISDIG3</strong>: diskon 20%</p>
+        <a href="#calc-section" class="btn" data-paket="75000">Sewa Paket Ini</a>
+      </div>
+    </article>
+
+    <article class="package-card featured">
+      <span class="badge">Paling populer</span>
+      <img class="package-img" src="https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=800&q=80" alt="Studio Kreator Visual">
+      <div class="package-body">
+        <h3 class="package-name">Studio Kreator Visual</h3>
+        <p class="package-desc">Untuk konten video yang tampil lebih menarik.</p>
+        <ul class="package-features">
+          <li>2 mikrofon dan kamera</li>
+          <li>Pencahayaan profesional</li>
+          <li>Latar belakang kustom</li>
+        </ul>
+        <p class="package-price">Rp150.000 <span>/ jam</span></p>
+        <p class="promo-info">Kode promo <strong>ABISDIG3</strong>: diskon 20%</p>
+        <a href="#calc-section" class="btn" data-paket="150000">Sewa Paket Ini</a>
+      </div>
+    </article>
+
+    <article class="package-card">
+      <img class="package-img" src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=800&q=80" alt="Studio Penyiaran Penuh">
+      <div class="package-body">
+        <h3 class="package-name">Studio Penyiaran Penuh</h3>
+        <p class="package-desc">Solusi lengkap untuk siaran langsung dagang dan produksi besar.</p>
+        <ul class="package-features">
+          <li>Multi-kamera</li>
+          <li>Siap siaran langsung</li>
+          <li>Tim pendamping teknis</li>
+        </ul>
+        <p class="package-price">Rp250.000 <span>/ jam</span></p>
+        <p class="promo-info">Kode promo <strong>ABISDIG3</strong>: diskon 20%</p>
+        <a href="#calc-section" class="btn" data-paket="250000">Sewa Paket Ini</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ===== KALKULATOR (SE) ===== -->
+<section id="calc-section" data-role="SE">
+  <h2 class="section-title">Hitung Biaya Sewa</h2>
+  <p class="section-desc">Pilih paket, isi durasi, dan masukkan kode promo kalau punya.</p>
+
+  <div class="calc-card">
+    <div class="form-group">
+      <label for="paket">Paket studio</label>
+      <select id="paket">
+        <option value="75000">Studio Suara Dasar - Rp75.000 / jam</option>
+        <option value="150000">Studio Kreator Visual - Rp150.000 / jam</option>
+        <option value="250000">Studio Penyiaran Penuh - Rp250.000 / jam</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="durasi">Durasi sewa (jam)</label>
+      <div class="stepper">
+        <button type="button" id="kurang" class="stepper-btn" aria-label="Kurangi durasi">−</button>
+        <input type="number" id="durasi" min="1" max="24" value="1">
+        <button type="button" id="tambah" class="stepper-btn" aria-label="Tambah durasi">+</button>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="promo">Kode promo</label>
+      <input type="text" id="promo" placeholder="Contoh: ABISDIG3" autocomplete="off">
+      <small class="hint">Gunakan kode ABISDIG3 untuk diskon 20%.</small>
+    </div>
+
+    <button type="button" id="btn-hitung" class="btn">Hitung Harga</button>
+
+    <div class="result-box" id="hasil" aria-live="polite">
+      <p class="result-empty">Pilih paket dan durasi, lalu tekan Hitung Harga.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== FOOTER (CEO) ===== -->
+<footer id="footer-section" data-role="CEO">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <strong>LUMORA Studio</strong>
+      <p>Suaramu, ceritamu, ruang kami.</p>
+    </div>
+    <div class="footer-team">
+      <p><strong>Kelompok 3 - WebDev A</strong></p>
+      <p>Zahra Nindya Putri, Agilta Triyuni, Atifa Savitri, Alifah Fakhirah Salsabilah, Maulia Salindry, Ghaniya Aisyah Amelia, Rania Amara Zakirah</p>
+    </div>
+  </div>
+  <p class="copyright">&copy; 2026 LUMORA Studio. Seluruh hak cipta dilindungi.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
